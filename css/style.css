@@ -1,0 +1,151 @@
+:root {
+  --primary-header-color: #303030;
+  --second-header-color: #ffffff;
+  --primary-link-color: #ffffff;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.link {
+  list-style: none;
+}
+
+/* ========HEADER======== */
+
+header {
+  background-color: grey;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-link-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-link-color);
+}
+
+.header-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* ========HERO========== */
+
+.hero {
+  background-color: #737373;
+}
+
+.sub-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.title {
+  font-family: 'Raleway' sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--second-header-color);
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.hero-links {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-links:hover,
+.hero-links:focus {
+  color: var(--accent-color);
+}
+
+/* ========ABOUT======== */
+
+.about {
+}
+
+.about-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-title {
+  font-family: Ralewey, sans-serif;
+  font-size: 42px;
+  line-height: 1.09px;
+  letter-spacing: 0.05em;
+  color: var(--primary-header-color);
+}
+.about-after-title {
+  font-size: 18px;
+  line-height: 1.67px;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-btn:hover,
+.abou-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* ================ */
